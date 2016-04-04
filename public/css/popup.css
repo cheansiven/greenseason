@@ -1,0 +1,197 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+        color: #333333;
+        font-family: Verdana,Geneva,sans-serif;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 900px;
+        position: fixed;
+        top: 100px !important;
+        visibility: hidden;
+        z-index: 8888 !important;
+        background: #FFFFFF;
+        left: 50%;
+        margin-left: -450px;
+    }
+
+    #contentPopup {
+        background: none repeat scroll 0 0 #EF8B30;
+        margin: 0 auto;
+        min-height: 370px;
+        overflow: auto;
+        position: relative;
+        width: 96%;
+        max-width: 990px;
+    }
+
+    .highlightLogo {
+        background: none repeat scroll 0 0 #EF8B30;
+        float: left;
+        height: 370px;
+        /*max-width: 300px;*/
+        width: 20%;
+    }
+    .highlightLogo h1 {
+        color: #FFFFFF;
+        font-family: Tahoma;
+        font-size: 25px;
+        line-height: 1em;
+        margin-left: 20px;
+        top: 35%;
+        position: relative;
+    }
+
+	.titlePopup {
+        color: #808080;
+        font-family: 'Alegreya Sans SC';
+        font-size: 24px;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+    .rightPopup {
+        width: 32%;
+        margin-top: -6px;
+    }
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+
+
+.btnBookTourSave {
+    background: none repeat scroll 0 0 #EF8B30;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-family: 'Alegreya Sans SC';
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-right: -10px;
+    margin-top: -17px;
+    padding: 4px 20px;
+    text-decoration: none;
+}
+
+
+.forSetp2{
+	margin-left:130px; padding-left:50px; padding-right:40px;
+}
+
+.popupTitle{
+	padding: 0 0 20px;
+}
+
+.wrapperPopup{
+    background: none repeat scroll 0 0 #fff;
+    color: #ef8b30;
+    float: right;
+    font-size: 13px;
+    min-width: 250px;
+    padding: 20px 30px;
+    width: 72%;
+}
+
+.wrapperPopup a {
+    color: #EF8B30;
+}
+
+.step_2{
+	padding-top:40px; padding-bottom:30px;
+}
+.titleName{
+	font-size:14px; font-weight:bold; margin-bottom:15px;
+}
+.divBoxFull{
+	margin-bottom:7px; height:40px;
+}
+.textBoxFull{
+	padding-top:6px; padding-bottom:6px; border:0px;
+    width:450px; padding-left:15px; color:#6E6E6E; background:#ECEEED; margin-bottom:0px;
+    border:none;
+}
+.divBoxHalfLeft{
+	padding-top:6px; padding-bottom:6px; border:0px;
+    width:235px; margin-bottom:0px; float:left; margin-bottom:7px;
+    height:34px;
+}
+.textBoxHalfLeft{
+	padding-top:6px; padding-bottom:6px; border:0px;
+    width:212px; padding-left:15px; color:#6E6E6E; background:#ECEEED; margin-bottom:0px; float:left;
+    border:none;
+}
+.divBoxHalfRight{
+	padding-top:6px; padding-bottom:6px; border:0px;
+    width:235px;
+    float:left; text-align:left; padding-left:0px; margin-bottom:7px; height:40px;
+}
+.textBoxHalfRight{
+	padding-top:6px; padding-bottom:6px; border:0px;
+    width:215px; padding-left:15px; color:#6E6E6E; background:#ECEEED; float:right;
+    border:none;
+}
+.smallLeft{
+	width:273px; float:left; margin-bottom:10px; height:70px;
+}
+.smallRight{
+	width:273px; float:right; margin-bottom:10px; height:70px;
+}
+
+.blogSmall{
+	float:left;
+    width:130px;
+    height: 70px;
+}
+.titleBox{
+	float:left; margin-bottom:5px;
+    font-size:11px; width:100%;
+}
+.boxSmall{
+	padding-top:6px; padding-bottom:6px; border:0px;
+    width:117px; padding-left:5px; color:#6E6E6E; background:#ECEEED; margin-bottom:0px; float:left;
+    border: none;
+}
+.extraBed {
+    float: right;
+    margin-bottom: -28px;
+    margin-top: 22px;
+}
+.lineYellow{
+	width:630px; height:40px; background:#D9E021; float:left; margin-bottom:20px; margin-top:145px; padding-left:10px;
+}
+.buttonYellow{
+	border:0px;
+    background:none; cursor:pointer; color:#6E6E6E; text-decoration:underline; font-size:12px;
+}
+/*#rooms_info {
+    margin-top: -20px;
+    position: absolute;
+}*/
+.msgInfo{
+	color:#333;
+    font-size: 11px;
+}
+
+/*
+#adults_info {
+    position: absolute;
+    bottom: 0;
+}*/

@@ -1,0 +1,224 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	font-size: 13px;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.checkbox label, .radio label,
+label { font-size: 13px; font-weight: 600; }
+
+.text-danger { color: #F33939; }
+
+.text-foot { color: #8DADBB; }
+
+.form-horizontal .form-group { margin-left: 0; margin-right: 0; }
+
+.page-content .form-horizontal .form-group-departure .radio { padding-top: 4px; }
+.page-content .form-horizontal .form-group-departure .radio  label { padding-top: 0; }
+
+.form-horizontal .control-label.text-left { text-align: left; }
+
+#nameError, #countryError, #regionError, #categoryError, #cityError, #titleError, #emailError {
+    display: none;
+    font-size: 12px;
+    color: #e77776;
+}
+
+/*.form-group { margin-bottom: 15px; }*/
+.list-date .form-group { margin-bottom: 0px; }
+
+.form-control { height: 100%; padding: 3px 12px; box-shadow: none; }
+
+input[type=file] { border: hidden; }
+
+.pd-left-43 { padding-left: 43px; }
+
+.fa { font-size: 25px; }
+
+.btn-warning {
+    width: 140px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.btn-sm { padding-top: 4px; padding-bottom: 4px; }
+
+/*.button-submit .btn-warning:last-child {
+    margin-bottom: 0px;
+    background-color: rgba(251, 176, 59, 0.45);
+    border: 1px solid #FDDBA6;
+}
+*/
+/*
+* ---- End General Style ----
+*/
+
+.main-menu span {
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    text-decoration: underline;
+    color: #1515C1;
+}
+
+nav.nav .main-menu-bg {
+	background: url(../images/admin/nav-menu-bg.jpg) repeat-x;
+}
+
+nav.nav li { list-style-type: none; position: relative; }
+
+nav.nav .navbar-nav li a {
+    color: white;
+    line-height: 1.1em;
+    font-size: 14px;
+    height: 63px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 109px;
+    padding: 0;
+    text-align: center;
+
+    border-right: 1px solid #010202;
+    border-left: 1px solid #1A6C8E;
+}
+
+nav.nav .navbar-nav li:first-child a {
+	border-right: 1px solid #010202;
+    border-left: 0px solid #1A6C8E;	
+}
+nav.nav .navbar-nav li:last-child a {
+	border-right: 0px solid #010202;
+    border-left: 1px solid #1A6C8E;	
+}
+
+nav.nav .navbar-nav li:hover ul {
+    display: block;
+}
+
+nav.nav .navbar-nav li li a:first-child,
+nav.nav .navbar-nav li li a {
+    border: hidden;
+}
+
+nav.nav .navbar-nav ul {
+    display: none;
+    padding-left: 0;
+    background-color: #326278;
+    margin-left: -1px;
+
+    position: absolute;
+    top: 63px;
+    left: 0;
+}
+nav.nav .navbar-nav ul li {
+	border-color: black;
+}
+
+nav.nav .navbar-nav li li a:hover,
+nav.nav .navbar-nav li.active a {
+	background-color: #adc3d5;
+    text-decoration: none;
+}
+
+/*
+* ---- End Navigation ----
+*/
+
+.input-field-top { 
+	margin-top: 35px; 
+	margin-bottom: 35px; 
+}
+
+.wrap-tabs .content-tabs {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	overflow: auto;
+}
+
+.ui-tabs-nav {
+    margin-bottom: -1px;
+}
+
+.menu-tabs {
+    border-bottom: 1px solid #ccc;	
+}
+
+.ui-tabs-nav li:first-child { margin-left: 0; }
+.ui-tabs-nav li {    
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+.ui-tabs-nav li a {
+	display: block;
+    color: #4D4D4D;
+    font-size: 13px;
+    text-transform: uppercase;
+	background: url(../images/admin/menu-bg.jpg) repeat-x;
+    width: 130px;
+    padding: 14px 0;
+}
+
+.ui-tabs-nav li.ui-tabs-active a {
+	background: transparent;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+}
+
+.review-picture { margin-bottom: 35px; }
+
+.company-form-registration { border-bottom: 1px solid #ccc; }
+
+.table tfoot tr td { border-bottom: 0; }
+
+/*
+* ---- End Style Tabs ----
+*/
+.form { margin-top: 35px; }
+.form-units #listDate .col-sm-2 { width: 12.5%; }
+.form-units .btn-primary { width: 100%; }
+.form-units .button-submit { margin-top: 35px; }
+.form-units .field-title { text-align: center; color: #4a7190; font-weight: 600; margin-bottom: 10px; }
+
+/*
+* ---- End Style Form Units ----
+*/
+
+footer {
+	background: black;
+	padding: 10px 15px;
+	text-align: left;
+
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	font-size: 10px;
+	margin-bottom: 0;
+	color: white;
+}
+
+footer p span {
+	text-transform: uppercase;
+	color: white;
+}
+
+#listDate .col-lg-1, #listDate .col-lg-10, #listDate .col-lg-11, #listDate .col-lg-12, #listDate .col-lg-2, #listDate .col-lg-3, #listDate .col-lg-4, #listDate .col-lg-5, #listDate .col-lg-6, #listDate .col-lg-7, #listDate .col-lg-8, #listDate .col-lg-9, #listDate .col-md-1, #listDate .col-md-10, #listDate .col-md-11, #listDate .col-md-12, #listDate .col-md-2, #listDate .col-md-3, #listDate .col-md-4, #listDate .col-md-5, #listDate .col-md-6, #listDate .col-md-7, #listDate .col-md-8, #listDate .col-md-9, #listDate .col-sm-1, #listDate .col-sm-10, #listDate .col-sm-11, #listDate .col-sm-12, #listDate .col-sm-2, #listDate .col-sm-3, #listDate .col-sm-4, #listDate .col-sm-5, #listDate .col-sm-6, #listDate .col-sm-7, #listDate .col-sm-8, #listDate .col-sm-9, #listDate .col-xs-1, #listDate .col-xs-10, #listDate .col-xs-11, #listDate .col-xs-12, #listDate .col-xs-2, #listDate .col-xs-3, #listDate .col-xs-4, #listDate .col-xs-5, #listDate .col-xs-6, #listDate .col-xs-7, #listDate .col-xs-8, #listDate .col-xs-9 {
+padding-left:0;	
+}
+
+/*
+* ---- End Style Footer ----
+*/

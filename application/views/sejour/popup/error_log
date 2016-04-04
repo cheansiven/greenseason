@@ -1,0 +1,1 @@
+[16-Jul-2014 05:27:07 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/kepest/public_html/application/views/frontend/popup/popup.php on line 35

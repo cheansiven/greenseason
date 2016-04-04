@@ -1,0 +1,1 @@
+<!--<a href="#" class="fr"><img src="<?php /*echo base_url();*/?>public/images/wam-logo-02.png"></a>-->
